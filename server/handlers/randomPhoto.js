@@ -14,7 +14,6 @@ function getRandomPhoto(req, res) {
     redirect: "follow",
   };
 
-  console.log(req.body);
   let urlQuery = null;
   if (req.body?.query) {
     urlQuery = `?query=${req.body.query}`;
