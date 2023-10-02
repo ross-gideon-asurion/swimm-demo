@@ -24,11 +24,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={backgroundImage || logo} className="background" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <div className="input-container">
           <input
+            className="query-input"
             ref={inputRef}
             type="text"
             placeholder="Enter a category or query to change the background photo"
@@ -38,7 +36,9 @@ function App() {
             onClick={() => {
               getRandomPhoto();
             }}
-          ></button>
+          >
+            Submit
+          </button>
         </div>
       </header>
     </div>
