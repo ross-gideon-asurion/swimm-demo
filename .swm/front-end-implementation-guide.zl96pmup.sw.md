@@ -2,28 +2,26 @@
 id: zl96pmup
 title: Front-end Implementation Guide
 file_version: 1.1.3
-app_version: 1.18.2
+app_version: 1.18.10
 ---
 
 The application makes requests to our backend API<br/>
-on `localhost`<swm-token data-swm-token=":client/swimm-demo/src/App.js:12:7:7:`      .post(&quot;http://localhost:3001/random/photo&quot;, {`"/> to the `/random/photo`<swm-token data-swm-token=":server/routes/router.js:10:5:8:`router.post(&quot;/random/photo&quot;, getRandomPhoto);`"/> endpoint.
+on `localhost`<swm-token data-swm-token=":client/swimm-demo/src/App.js:12:7:7:`      .post(&quot;http://localhost:3001/random/photo&quot;, {`"/> to the `/random/photos`<swm-token data-swm-token=":server/routes/router.js:10:5:8:`router.post(&quot;/random/photos&quot;, getRandomPhoto);`"/> endpoint.
 
 <br/>
 
+
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-
 ### 📄 server/routes/router.js
-
 ```javascript
-10     router.post("/random/photo", getRandomPhoto);
+10     router.post("/random/photos", getRandomPhoto);
 ```
 
 <br/>
 
+
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-
 ### 📄 client/swimm-demo/src/App.js
-
 ```javascript
 12           .post("http://localhost:3001/random/photo", {
 ```
