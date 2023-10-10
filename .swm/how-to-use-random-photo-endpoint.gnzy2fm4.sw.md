@@ -2,19 +2,18 @@
 id: gnzy2fm4
 title: How to use Random Photo endpoint
 file_version: 1.1.3
-app_version: 1.18.2
+app_version: 1.18.10
 ---
 
 Make a POST request to the following endpoint:
 
 <br/>
 
+
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-
 ### 📄 server/routes/router.js
-
 ```javascript
-10     router.post("/random/photo", getRandomPhoto);
+10     router.post("/random/photos", getRandomPhoto);
 ```
 
 <br/>
