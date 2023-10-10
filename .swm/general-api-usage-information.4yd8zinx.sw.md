@@ -2,7 +2,7 @@
 id: 4yd8zinx
 title: General API Usage Information
 file_version: 1.1.3
-app_version: 1.18.2
+app_version: 1.18.10
 ---
 
 API Host:<br/>
@@ -13,13 +13,11 @@ API Host:<br/>
 
 <br/>
 
+
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-
 ### 📄 server/routes/router.js
-
 ```javascript
-10     router.post("/random/photo", getRandomPhoto);
-11
+10     router.post("/random/photos", getRandomPhoto);
 ```
 
 <br/>
