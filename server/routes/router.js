@@ -7,6 +7,6 @@ router.get("/healthcheck", async (req, res) => {
   res.send("Hello World from the backend! " + currentDateTime);
 });
 
-router.post("/random/photos", getRandomPhoto);
+router.post("/random/photo", getRandomPhoto);
 
 module.exports = router;
