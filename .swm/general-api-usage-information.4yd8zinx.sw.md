@@ -17,7 +17,7 @@ API Host:<br/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 server/routes/router.js
 ```javascript
-10     router.post("/random/photos", getRandomPhoto);
+10     router.post("/random/photo", getRandomPhoto);
 ```
 
 <br/>
